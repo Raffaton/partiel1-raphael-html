@@ -24,6 +24,10 @@ header img {
         margin: 10px;
         font-size: 250%;
     }
+
+    i:hover {
+        color: black;
+    }
 }
 
 #hero {
@@ -31,6 +35,7 @@ header img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     width: 100%;
     height: 670px;
     position: relative;
@@ -70,7 +75,7 @@ main {
 }
 
 #question_voyageur {
-    background-color: #E4DCE2;
+    background-color: #e4dce2;
     width: 100%;
 
     p {
@@ -81,7 +86,7 @@ main {
 
 #proposition_voyageur {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-family: Open Sans;
     font-size: 24px;
     font-weight: 700;
@@ -96,6 +101,9 @@ main {
 
     img {
     width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 5px;
     }
 
     p {
@@ -103,8 +111,13 @@ main {
     }
 }
 
+.choix_voyageur:hover {
+    background-color: #6a3460;
+}
+
 #c_est_parti {
     background-image: url('../images/paysage_2.jpg');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -129,10 +142,21 @@ main {
     border-color: white;
 }
 
+#c_est_parti p:hover {
+    background-color: white; 
+    color: #6a3460; 
+    border-color: #6a3460;
+    transform: scale(1.5); 
+    transition-duration: 1s;
+}
+
 footer {
     background-color: #6a3460;
-    height: 6%;
+    height: 500px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     img {
         width: 25%;
