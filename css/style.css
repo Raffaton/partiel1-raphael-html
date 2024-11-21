@@ -1,2 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bigelow+Rules&family=Oleo+Script:wght@400;700&family=Oswald:wght@200..700&family=Sofia+Sans:ital@0;1&family=Xanh+Mono:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bigelow+Rules&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Sofia+Sans:ital@0;1&family=Xanh+Mono:ital@0;1&display=swap');
+
+body {
+    margin: 0;
+}
+header {
+    background-color: #6a3460;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+header img {
+    width: 10%;
+    margin-left: 10%;
+}
+
+#icon_header {
+    margin-right: 5%;
+    i {
+        color: white;
+        margin: 10px;
+        font-size: 250%;
+    }
+}
+
+.choix_voyageur img {
+    width: 10%;
+}
