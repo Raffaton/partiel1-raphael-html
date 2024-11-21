@@ -89,7 +89,7 @@ main {
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
+    margin-bottom: 2%;
 }
 
 .choix_voyageur {
@@ -127,4 +127,14 @@ main {
     font-weight: 700;
     border: 5px solid;
     border-color: white;
+}
+
+footer {
+    background-color: #6a3460;
+    height: 6%;
+    text-align: center;
+
+    img {
+        width: 25%;
+    }
 }
