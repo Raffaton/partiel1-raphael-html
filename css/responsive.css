@@ -1,3 +1,27 @@
-@media all and (max-width: 768px) {
+@media all and (max-width: 900px) {
+    header {
+        flex-direction: column;
 
+        img {
+            margin-left: 0;
+        }
+    }
+        
+    #icon_header {
+        margin-right: 0;
+
+        i {
+            font-size: 150%;
+        }
+    }
+    
+
+    #proposition_voyageur {
+        flex-direction: column;
+    }
+
+    #hero p {
+        top: 25%;
+        left: 25%;
+    }
 }
